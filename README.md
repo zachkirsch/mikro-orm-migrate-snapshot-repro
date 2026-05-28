@@ -1,5 +1,7 @@
 # `migrator.up()` overwrites the committed snapshot
 
+## Issue: https://github.com/mikro-orm/mikro-orm/issues/7798
+
 ## Repro
 
 ```
