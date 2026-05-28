@@ -1,0 +1,21 @@
+{
+  "name": "mikro-orm-migrate-snapshot-repro",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "migrate": "tsx src/migrate.ts"
+  },
+  "dependencies": {
+    "@mikro-orm/core": "next",
+    "@mikro-orm/decorators": "next",
+    "@mikro-orm/migrations": "next",
+    "@mikro-orm/sqlite": "next",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@mikro-orm/cli": "next",
+    "@types/node": "^25.5.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
